@@ -8,7 +8,7 @@
 static char *font = "mono:pixelsize=13:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-    "materialdesignicons-webfont:size=12"
+    "materialdesignicons-webfont:size=20"
 };
 
 static int borderpx = 2;
