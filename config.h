@@ -8,7 +8,7 @@
 static char *font = "mono:pixelsize=13:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-    "Material Design Icons:pixelsize=13:antialias=true:autohint=true"
+    "Material Design Icons:pixelsize=30:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
