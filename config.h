@@ -9,7 +9,7 @@ static char *font = "mono:pixelsize=12:antialias=true:autohint=true";
 static char *font2[] = {
     // TODO: Add fallback icon font
     "materialdesignicons-webfont:pixelsize=15:antialias=true:autohint=true"
-    "FontAwesome6Free:pixelsize=15:antialias=true:autohint=true"
+    "FontAwesome6Free:pixelsize=10:antialias=true:autohint=true"
     "devicons:pixelsize=15:antialias=true:autohint=true"
 };
 
