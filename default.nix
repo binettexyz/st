@@ -1,4 +1,4 @@
-{ stdenv, lib, fetchurl, libX11, libXft, harfbuzzFull, pkgconfig, ncurses }:
+{ stdenv, lib, fetchurl, libX11, libXft, harfbuzzFull, pkg-config, ncurses }:
 with lib;
 
 stdenv.mkDerivation {
@@ -7,7 +7,7 @@ stdenv.mkDerivation {
   src = builtins.filterSource
     (path: type: (toString path) != (toString ./.git)) ./.;
 
-  nativeBuildInputs = [ pkgconfig ncurses ];
+  nativeBuildInputs = [ pkg-config ncurses ];
   buildInputs = [ libX11 libXft harfbuzzFull ];
 
   prePatch = ''
